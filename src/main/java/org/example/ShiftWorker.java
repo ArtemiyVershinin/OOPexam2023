@@ -22,6 +22,9 @@ public class ShiftWorker extends Employee {
     @Override
     public void getReportDetails() {
         super.getReportDetails();
+        System.out.println("Employee Shift: Day");
+        System.out.println("Employee PayRollNo: 5867");
+        System.out.println("Employee Hourly Rate: 14.50");
     }
 
     ShiftWorker myShiftWorker = new ShiftWorker();
